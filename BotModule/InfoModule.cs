@@ -23,8 +23,7 @@ namespace ExampleBot.BotModule
                 $"If you need help with finding my commands,\nuse `{Program.InternalPrefix}commands` for the universal commands list.\n\n" +
                 $"If you want me to join on your server as well,\nuse the `{Program.InternalPrefix}invite` command and click on the url.\n\n" +
                 $"If you don't know how to start with using my commands,\nuse the `{Program.InternalPrefix}setup` command.\n\n" +
-                $"**Bot version**: {Program.BotVersion}\n**Guilds**: {guilds.Count.ToString()}\n\n" +
-                $"**:warning: This bot is still in an alpha build and development.\nYou may wait a bit for the first public release.**",
+                $"**Bot version**: {Program.BotVersion}\n**Guilds**: {guilds.Count.ToString()}\n\n",
                 Timestamp = DateTime.Now,
                 Color = DiscordColor.Blurple,
                 Footer = new DiscordEmbedBuilder.EmbedFooter
