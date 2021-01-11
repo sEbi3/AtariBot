@@ -85,7 +85,7 @@ namespace ExampleBot.BotModule
                 .Build()); ;        
         }
 
-        [Command("getpb"), Description("Use this command to get the server icon.")]
+        [Command("servericon"), Description("Use this command to get the server icon.")]
         public async Task si(CommandContext ctx)
         {
             await ctx.RespondAsync(embed: new DiscordEmbedBuilder
@@ -103,7 +103,7 @@ namespace ExampleBot.BotModule
             });
         }
 
-        [Command("getpb"), Description("Use this command to get information of an user.")]
+        [Command("whois"), Description("Use this command to get information of an user.")]
         public async Task WhoIs(CommandContext ctx, [Description("The member whose information you want.")] DiscordUser member)
         {
             var user = (await ctx.Guild.GetMemberAsync(member.Id));
