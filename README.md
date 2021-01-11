@@ -1,7 +1,7 @@
 # Example Discord Bot
 This is an example discord bot using the DsharpPlus API. (Features: Moderation, Fun, Misc and Info)
 
-<b>Note</b>: This is the source code from my AI Bot, but currently not with MySQL and custom help command stuff.
+<b>Note</b>: This is the source code from my AI Bot, but currently not with MySQL and custom help command stuff.<br>
 <a href="https://sebi3.gitbook.io/ai-bot/">Click here for more information about the AI Bot.</a>
  
 --------
