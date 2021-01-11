@@ -19,13 +19,13 @@ This is an example discord bot using the DsharpPlus API. (Features: Moderation, 
 - And more...
 
 ## Current Modules
-- Administration/Moderation Module: 
+- Administration/Moderation Module:<br> 
 <b>Commands</b>: ban, unban, purge and kick.
-- Fun Module:
-<b>Commands</b>: cat, dog, getpb, servericon, whois and ´covid´.
-- Info Module:
+- Fun Module:<br>
+<b>Commands</b>: cat, dog, getpb, servericon, whois and covid.
+- Info Module:<br>
 <b>Commands</b>: ExampleBot, uptime, Invite, serverinfo and members.
-- Misc Module:
+- Misc Module:<br>
 <b>Commands</b>: say, dm, ping, status, commands
 
 
