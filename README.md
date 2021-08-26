@@ -1,4 +1,4 @@
-# Atari Discord Bot
+# AtariBot for Discord
 AtariBot is a multi-purpose bot with many features for moderation, fun and administration.<br>
 <a href="https://sebi3.de/docs/AtariBot/getting-started">[Click here for more information about the AtariBot.]</a><br>
  <a href="https://sebi3.de/docs/AtariBot/fun-commands">[Click here for a list with all current commands.]</a>
