@@ -19,9 +19,9 @@ AtariBot is a multi-purpose bot with many features for moderation, fun and admin
 --------
 
 ## How to create your bot application and invite it to your server using this source code
-<b>1.)</b> Download the source code of the bot <a href="https://discord.com/developers/applications">[here]</a>.<br>
+<b>1.)</b> Download the source code of the bot <a href="https://github.com/sEbi3/AtariBot">[here]</a>.<br>
 <b>2.)</b> Visit the <a href="https://discord.com/developers/applications">Discord Developer Portal</a> and go to <code>Applications</code>.<br>
-<b>3.)</b> Create a new Aoplication and open it.<br>
+<b>3.)</b> Create a new Application and open it.<br>
 <b>4.)</b> Go to the <code>Bot</code> tab on the left side and <code>add a new Bot</code>.<br>
 <b>5.)</b> Copy the <code>Token</code> and paste it into the <code>program.cs</code> class here:
 
@@ -39,7 +39,7 @@ discord = new DiscordClient(new DiscordConfiguration
  
 ## How to create a bot using this source code and running it on your localhost
 <b>1.)</b> Create a new <code>Console App (.NET Core)</code> project.<br>
-<b>2.)</b> Add the source code into your project.<br>
+<b>2.)</b> Add the source code into your project by dragging and dropping all files and folders into your project directory.<br>
 <b>3.)</b> Add the <a href="https://dsharpplus.github.io/">DSharpPlus</a> API to your project. (Use the <code>NuGet Manager</code> for adding the API.)<br>
 <b>4.)</b> Change everything to your liking. (Have a look above on how to create a <code>bot application</code>)<br>
 <b>5.)</b> Now you only need to <code>compile the program</code>. In order to start your bot, go into your project files and start the <code>AtariBot.exe</code>.
