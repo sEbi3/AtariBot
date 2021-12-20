@@ -1,4 +1,4 @@
-# AtariBot for Discord
+# AtariBot for Discord (Build 1.0.44)
 AtariBot is a multi-purpose bot with many features for moderation, fun and administration.<br>
 <a href="https://sebi3.de/docs/AtariBot/getting-started">[Click here for more information about the AtariBot.]</a><br>
  <a href="https://sebi3.de/docs/AtariBot/fun-commands">[Click here for a list with all current commands.]</a>
@@ -18,7 +18,7 @@ AtariBot is a multi-purpose bot with many features for moderation, fun and admin
 
 --------
 
-## How to create your bot application and invite it to your server using this source code
+## How to create your bot application and invite it to your server using this source code?
 <b>1.)</b> Download the source code of the bot <a href="https://github.com/sEbi3/AtariBot">[here]</a>.<br>
 <b>2.)</b> Visit the <a href="https://discord.com/developers/applications">Discord Developer Portal</a> and go to <code>Applications</code>.<br>
 <b>3.)</b> Create a new Application and open it.<br>
@@ -36,8 +36,9 @@ discord = new DiscordClient(new DiscordConfiguration
 <b>7.)</b> Now copy the <code>Application ID</code> and open <a href="https://discord.com/oauth2/authorize?client_id=711550600286044201&scope=bot&permissions=8">[this URL]</a> on a new tab and change the <code>Application ID</code> from <code>711550600286044201</code> to the one you copied.<br>
 <b>8.)</b> Refresh the page and choose your discord server in the dropdown list. The bot will now join your server.
 
+--------
  
-## How to create a bot using this source code and running it on your localhost
+## How to create a bot using this source code and running it on your localhost?
 <b>1.)</b> Create a new <code>Console App (.NET Core)</code> project.<br>
 <b>2.)</b> Add the source code into your project by dragging and dropping all files and folders into your project directory.<br>
 <b>3.)</b> Add the <a href="https://dsharpplus.github.io/">DSharpPlus</a> API to your project. (Use the <code>NuGet Manager</code> for adding the API.)<br>
@@ -45,6 +46,26 @@ discord = new DiscordClient(new DiscordConfiguration
 <b>5.)</b> Now you only need to <code>compile the program</code>. In order to start your bot, go into your project files and start the <code>AtariBot.exe</code>.
 
 The bot is only online when the <code>AtariBot.exe</code> is running. If you want to have the bot online 24/7, you need to rent a server and start the <code>AtariBot.exe</code> from the server. (For uploading the files, you need to use a program that supports FTP.)
+
+--------
+
+## How to change/add permissions to a specific command?
+<b>1.)</b> Go into one of the Modules. (In this case I use the <code>MiscModule</code>.).<br>
+<b>2.)</b> Now find the command where you want to change the permissions. (In this case I use the <code>msg</code> command.).<br>
+<b>3.)</b> After you have found the command, find the following <code>if statement</code>:
+
+```cs
+if (!ctx.Member.PermissionsIn(ctx.Channel).HasPermission(Permissions.BanMembers))
+{
+//If the user hasn' enough permissions, this block of code runs.
+//I'll leave out the other "else if" statements.
+}
+else
+//If the user has enough permissions, this block of code runs.
+}
+```
+<b>6.)</b> The only thing you need to change are the permissions in the statement.<br>(For example: from <code>Permissions.BanMembers</code> to <code>Permissions.Administrator</code>.)<br>
+<b>7.)</b> If you don't want any permissions to be required in order to use a command, just leave the <code>if statement</code> away.
 
 --------
 
