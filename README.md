@@ -1,20 +1,22 @@
 # AtariBot for Discord (Build 1.0.44)
 AtariBot is a multi-purpose bot with many features for moderation, fun and administration.<br>
-<a href="https://sebi3.de/docs/AtariBot/getting-started">[Click here for more information about the AtariBot.]</a><br>
- <a href="https://sebi3.de/docs/AtariBot/fun-commands">[Click here for a list with all current commands.]</a>
+- <a href="https://sebi3.de/docs/AtariBot/getting-started">Click here for more information about the AtariBot.</a><br>
+- <a href="https://sebi3.de/docs/AtariBot/fun-commands">Click here for a list with all commands.</a>
  
---------
  
 ## This bot was built with:
-- <a href="https://dsharpplus.github.io/">DSharpPlus v4.0.1</a>
+- <a href="https://dsharpplus.github.io/">DSharpPlus v4.0.1</a><br><br>
 
 --------
 
 ## Current Features
-- Every command has a description for the <code>function</code>, <code>arguments</code>, <code>permissions</code>, <code>aliases</code> and on how to use the command.
-- Permissions are set for each command. In this case normal users can't execute commands used by moderators or administartors.
-- A lot of embeds were used for the commands in order to make it looks more clean.
-- This bot adds many commands for moderation, administration, information and fun.
+- Every command has a description for the <code>function</code>, <code>arguments</code>, <code>permissions</code>, <code>aliases</code> and on how to use the commands.
+- Permissions are set for each command.<br>
+  ○ In this case normal users can't execute commands used by moderators or administartors.<br><br>
+- A lot of embeds were used for the commands in order to make it looks more clean and easier to read.
+- This bot adds many commands for moderation, administration, information and fun.<br>
+  ○ Take a look at the <code>DSharpPlus Documentation</code> in order to create your own commands.<br>
+  ○ You can also add commands for youself easily by taking a look at the default commands in order to see how they were made.<br><br>
 
 --------
 
@@ -34,7 +36,7 @@ discord = new DiscordClient(new DiscordConfiguration
 ```
 <b>6.)</b> Go back to the <a href="https://discord.com/developers/applications">Discord Developer Portal</a> and go into the <code>General Information</code> tab.</p>
 <b>7.)</b> Now copy the <code>Application ID</code> and open <a href="https://discord.com/oauth2/authorize?client_id=711550600286044201&scope=bot&permissions=8">[this URL]</a> on a new tab and change the <code>Application ID</code> from <code>711550600286044201</code> to the one you copied.<br>
-<b>8.)</b> Refresh the page and choose your discord server in the dropdown list. The bot will now join your server.
+<b>8.)</b> Refresh the page and choose your discord server in the dropdown list. The bot will now join your server.<br><br>
 
 --------
  
@@ -45,7 +47,7 @@ discord = new DiscordClient(new DiscordConfiguration
 <b>4.)</b> Change everything to your liking. (Have a look above on how to create a <code>bot application</code>)<br>
 <b>5.)</b> Now you only need to <code>compile the program</code>. In order to start your bot, go into your project files and start the <code>AtariBot.exe</code>.
 
-The bot is only online when the <code>AtariBot.exe</code> is running. If you want to have the bot online 24/7, you need to rent a server and start the <code>AtariBot.exe</code> from the server. (For uploading the files, you need to use a program that supports FTP.)
+The bot is only online when the <code>AtariBot.exe</code> is running. If you want to have the bot online 24/7, you need to rent a server and start the <code>AtariBot.exe</code> from the server. (For uploading the files, you need to use a program that supports FTP.)<br><br>
 
 --------
 
@@ -57,15 +59,14 @@ The bot is only online when the <code>AtariBot.exe</code> is running. If you wan
 ```cs
 if (!ctx.Member.PermissionsIn(ctx.Channel).HasPermission(Permissions.BanMembers))
 {
-//If the user hasn' enough permissions, this block of code runs.
-//I'll leave out the other "else if" statements.
+//If the user has not enough permissions, this block of code runs.
 }
 else
 //If the user has enough permissions, this block of code runs.
 }
 ```
 <b>6.)</b> The only thing you need to change are the permissions in the statement.<br>(For example: from <code>Permissions.BanMembers</code> to <code>Permissions.Administrator</code>.)<br>
-<b>7.)</b> If you don't want any permissions to be required in order to use a command, just leave the <code>if statement</code> away.
+<b>7.)</b> If you don't want any permissions to be required in order to use a command, just leave the <code>if statement</code> away.<br><br>
 
 --------
 
