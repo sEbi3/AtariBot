@@ -10,9 +10,9 @@
     <br />
     <a href="https://discord.gg/4pnAXKC">Join our Discord</a>
     ·
-    <a href="https://sebi3.de/docs/AtariBot/fun-commands">List of all Commands</a>
+    <a href="https://meta-modifications.de/docs/AtariBot/fun-commands">List of all Commands</a>
     ·
-    <a href="https://sebi3.de">Website</a>
+    <a href="https://meta-modifications.de">Website</a>
   </p>
 </p><br><br>
  
