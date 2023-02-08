@@ -1,7 +1,7 @@
  <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/MarkusKgit/MonkeyBot/">
+  <a href="https://github.com/sEbi3/AtariBot">
     <img src="Logos/AtariBotPreview.png" alt="Logo" width="328" height="328">
   </a>
 <h3 align="center">AtariBot for Discord (Build 1.0.44)</h3>
