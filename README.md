@@ -8,11 +8,6 @@
   <p align="center">AtariBot is a multi-purpose bot with many features for moderation, fun and administration.
     <br />
     <br />
-    <a href="https://discord.gg/4pnAXKC">Join our Discord</a>
-    ·
-    <a href="https://meta-modifications.de/docs/AtariBot/fun-commands">List of all Commands</a>
-    ·
-    <a href="https://meta-modifications.de">Website</a>
   </p>
 </p><br><br>
  
@@ -25,8 +20,6 @@
   * [Installation](#installation)
   * [Change or add permissions to commands](#change-or-add-permissions-to-commands)
 * [Contributing](#contributing)
-* [Support Me](#support-me)
-* [Terms / License](#terms)
  
 
 ## This bot was built with:
@@ -105,15 +98,3 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request<br><br>
-
-
-## Support Me
-If you like my work and want access to early versions, please consider supporting me on [**Patreon**](https://www.patreon.com/meta_modifications). 
-
-
-## Terms
-You can use and edit this code to your liking. Don't ever claim it to be your own code and provide credit if you are using this code for your project. You are not allowed to reupload the exact same code. This means you are now allowed to copy the classes for changing text for translations or dialogs.
-
-Using the code means parts of the source code in order to implement them for your own projects. You are not allowed to reupload the exact same classes without any big changes except for using the code for personal perposes only.
-
-You can find the full license here: https://meta-modifications.de/tos
