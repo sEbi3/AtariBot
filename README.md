@@ -58,8 +58,9 @@ discord = new DiscordClient(new DiscordConfiguration
 
  6. Go back to the <a href="https://discord.com/developers/applications">Discord Developer Portal</a> and go into the <code>General Information</code> tab.
  7. Now copy the <code>Application ID</code> and open <a href="https://discord.com/oauth2/authorize?client_id=711550600286044201&scope=bot&permissions=8">[this URL] </a> on a new tab and change the <code>Application ID</code> from <code>711550600286044201</code> to the one you copied.
- 8. Refresh the page and choose your discord server in the dropdown list. The bot will now join your server.<br><br><br><br>
- 
+ 8. Refresh the page and choose your discord server in the dropdown list. The bot will now join your server.<br><br>
+
+#
 ### Installation
  1. Create a new <code>Console App (.NET)</code> project.<br>
  2. Add the source code into your project by dragging and dropping all files and folders into your project directory.<br>
@@ -67,9 +68,9 @@ discord = new DiscordClient(new DiscordConfiguration
  4. Change everything to your liking. (Have a look above on how to create a <code>bot application</code>)<br><br>
  5. Now you only need to <code>compile the program</code>. In order to start your bot, go into your project files and start the <code>AtariBot.exe</code>.<br>
 
- The bot is only online when the <code>AtariBot.exe</code> is running. If you want to have the bot online 24/7, you need to rent a server and start the <code>AtariBot.exe</code> from the server. (For uploading the files, you need to use a program that supports FTP.)<br><br><br><br>
+ The bot is only online when the <code>AtariBot.exe</code> is running. If you want to have the bot online 24/7, you need to rent a server and start the <code>AtariBot.exe</code> from the server. (For uploading the files, you need to use a program that supports FTP.)<br><br>
 
-
+#
 ### Change or add permissions to commands
  1. Go into one of the Modules. (In this case I use the <code>MiscModule</code>.).
  2. Now find the command where you want to change the permissions. (In this case I use the <code>msg</code> command.).
@@ -91,4 +92,4 @@ else {
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what makes the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. 
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. 
